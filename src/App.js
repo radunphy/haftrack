@@ -9,9 +9,7 @@ function App() {
         <Header />
         <p>Test</p> 
       </main>
-      <footer className="App-footer">
-        <Footer />
-      </footer>
+      <Footer />
     </div>
   );
 }
