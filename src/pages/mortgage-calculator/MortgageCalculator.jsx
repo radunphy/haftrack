@@ -1,7 +1,7 @@
 import React from 'react';
-import './Header.css';
+import './MortgageCalculator.css';
 
-const Header = () => {
+const MortgageCalculator = () => {
     return (
         <header className='App-header'>
             <h1>Mortgage Calculator</h1>
@@ -10,4 +10,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default MortgageCalculator;

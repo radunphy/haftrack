@@ -55,6 +55,15 @@
     color: #17795f;
 }
 
+.ht-nav-title-link {
+    text-decoration: none;
+    color: #17795f;
+}
+
+.ht-nav-title:hover {
+    color: #003bb9;
+}
+
 .ht-nav-logo {
     display: inline-block;
     flex: 0 1 auto;

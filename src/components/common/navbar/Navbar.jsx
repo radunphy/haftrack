@@ -7,7 +7,9 @@ class Navbar extends Component {
         return (
             <nav className='ht-navbar'>
                 <div className='ht-nav-logo'>
-                    <h1 className='ht-nav-title'>Haftrack</h1>
+                    <a className='ht-nav-title-link' href='/'>
+                        <h1 className='ht-nav-title'>Haftrack</h1>
+                    </a>
                 </div>
                 <div className='ht-menu-items'>
                     <ul className="ht-menu-items-list">

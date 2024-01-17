@@ -1,12 +1,12 @@
 export const MenuItems = [
     {
         title: "Home",
-        url: "#",
+        url: "/",
         className: "ht-nav-links",
     },
     {
-        title: "About",
-        url: "/about",
+        title: "Mortgage Calculator",
+        url: "/mortgage-calculator",
         className: "ht-nav-links",
     },
     {
@@ -15,8 +15,8 @@ export const MenuItems = [
         className: "ht-nav-links",
     },
     {
-        title: "Contact",
-        url: "/contact",
+        title: "Login",
+        url: "/login",
         className: "ht-nav-links",
     },
 ];

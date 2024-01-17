@@ -13,6 +13,7 @@ function Footer() {
                     <span className='ht-footer-github-text'>Visit my GitHub</span>
                 </a>
             </div>
+            <hr className="ht-footer-github-divider"/>
             <p className="ht-footer-copyright">&copy; {today} Haftrack Finances</p>
         </footer>
     );
