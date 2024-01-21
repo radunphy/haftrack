@@ -27,8 +27,14 @@
 
 .mc-calculator {
   display: flex;
-  width: 100%;
+  max-width: 1080px;
   background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(31,36,38,.15);
 }
 
 .mc-calculator-container {
@@ -37,10 +43,8 @@
   align-items: center;
   justify-content: center;
   margin: auto;
-  padding: 0 16px;
   min-height: 56px;
-  width: 80%;
-  max-width: 80%;
+  max-width: 1200px;
   box-shadow: 0 -2px 4px 0 rgba(31, 36, 38, .1);
 }
 

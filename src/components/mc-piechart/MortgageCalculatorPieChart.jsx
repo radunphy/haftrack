@@ -15,8 +15,13 @@ const MortgageCalculatorPieChart = ({ paymentBreakdown }) => {
             },
         ],
     };
+    
+    const options = {
+        cutout: 225,
+        radius: 100
+    };
 
-    return <Doughnut data={data} />;
+    return <Doughnut data={data} options={options} />;
 };
 
 export default MortgageCalculatorPieChart;
