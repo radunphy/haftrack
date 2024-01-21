@@ -1,8 +1,65 @@
-.App-header {
+.mc-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #f5f7f8;
   min-height: 56px;
   font-size: 16px;
   position: relative;
+}
+
+.mc-header-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mc-header-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 16px;
+  max-width: 60vw;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mc-calculator {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+}
+
+.mc-calculator-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0 16px;
+  min-height: 56px;
+  width: 80%;
+  max-width: 80%;
+  box-shadow: 0 -2px 4px 0 rgba(31, 36, 38, .1);
+}
+
+.mc-container {
+  background: linear-gradient(176deg, #f5f7f8 16.85rem, #12644e 17rem, #12644e) no-repeat, #12644e;
+}
+
+.mc-inputs {
+  flex: 1;
+  padding-right: 8px;
+}
+
+.mc-chart {
+  flex: 2;
+  padding-left: 8px;
+}
+
+.mc-chart-amortization, .mc-chart-pie-chart {
+  width: 100%;
 }
 
 h1 {
@@ -11,8 +68,7 @@ h1 {
 }
 
 p {
-    font-family: canada-type-gibson, Arial, sans-serif;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.125rem;
     color: #1f2426;
-    font-weight: 600;
 }

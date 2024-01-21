@@ -18,6 +18,16 @@
   font-size: 16px;
   color: white;
   position: relative;
+}.ht-footer {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 16px;
+    min-height: 56px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px 0 rgba(31, 36, 38, .1);
 }
 
 .App-link {
