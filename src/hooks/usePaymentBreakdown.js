@@ -4,7 +4,7 @@ const usePaymentBreakdown = () => {
     const [paymentBreakdown, setPaymentBreakdown] = useState({
         homeValue: 200000,
         downPayment: 20000,
-        mortgageTerm: 30,
+        mortgageType: 30,
         interestRate: 6.5,
     });
 

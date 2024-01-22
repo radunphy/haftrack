@@ -10,8 +10,8 @@ const MortgageCalculatorPieChart = ({ paymentBreakdown }) => {
         datasets: [
             {
                 data: Object.values(paymentBreakdown),
-                backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
-                hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
+                backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56, #29AF8A"],
+                hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56, #29AF8A"],
             },
         ],
     };
@@ -21,7 +21,7 @@ const MortgageCalculatorPieChart = ({ paymentBreakdown }) => {
         radius: 100
     };
 
-    return <Doughnut data={data} options={options} />;
+    return <Doughnut data={data}/>;
 };
 
 export default MortgageCalculatorPieChart;

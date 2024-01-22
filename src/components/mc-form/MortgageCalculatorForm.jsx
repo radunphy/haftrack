@@ -37,7 +37,17 @@ const MortgageCalculatorForm = ({ paymentBreakdown, handleChange }) => {
                 <label className='mc-form-label'>
                     <h3>Type of Mortgage</h3>
                 </label>
-                <div className='mc-form-select'>
+                <div className='mc-form-input'>
+                    <input
+                            type="text"
+                            name="mortgageType"
+                            value={paymentBreakdown.mortgageType}
+                            onChange={handleChange}
+                        />
+                </div>
+                {/* Implement select after completing business logic */}
+                
+                {/* <div className='mc-form-select'>
                     <select 
                         type="text"
                         name="mortgageType"
@@ -48,7 +58,7 @@ const MortgageCalculatorForm = ({ paymentBreakdown, handleChange }) => {
                         <option value='15YearFixed'>15-year Fixed</option>
                         <option value='5/1AdjustableRate'>5/1 ARM</option>
                     </select>
-                </div>
+                </div> */}
             </div>
             <div className='mc-form-group'>
                 <label className='mc-form-label'>
